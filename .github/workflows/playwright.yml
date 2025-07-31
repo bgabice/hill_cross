@@ -4,7 +4,7 @@ on:
   push:
     branches: [master, playwright-framework]
   pull_request:
-    branches: [master]
+    branches: [master, playwright-framework]
 
 jobs:
   test:
