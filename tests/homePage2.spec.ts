@@ -12,3 +12,8 @@ test('test', async ({ page }) => {
   await expect(page.locator('form')).toContainText('Click here');
   await expect(page.getByText('HillCross College Student Management System')).toBeVisible();
 });
+
+// This test checks the visibility of various elements on the home page of the application.
+// It ensures that the login form and related texts are displayed correctly when the page is loaded.
+// The test navigates to the home page and verifies the presence of elements such as the welcome message,
+// instructions for signing in, placeholders for input fields, and links for password recovery and new applications
